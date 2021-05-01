@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: inherit;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -58,4 +58,20 @@ body{
     padding: 14px 15px;
     background-color: lightgray;
 }
-
+@media (max-width: 425px) {
+    * {
+        margin:revert;
+    }
+    .navbar {
+        display: none;
+    }
+    .boton {
+        position: relative;
+        left: 35%;
+        bottom: 10px;
+    }
+    #copy {
+        width: auto;
+        text-align: center;
+    }
+}
