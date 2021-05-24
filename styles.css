@@ -18,12 +18,14 @@ body{
     padding: 14px 16px;
     display: block;
     float: left;
+    transition-property: background-color;
+    transition-duration: 1700ms;
 }
 .navbar a:hover {
     background-color: lightgray;
     color: black;
 }
-.navbar a.active {
+.navbar a#active {
     background-color: lightgray;
     color: black;
 }
